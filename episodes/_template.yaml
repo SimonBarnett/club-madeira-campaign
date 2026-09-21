@@ -1,0 +1,32 @@
+episode: 0
+slug: template
+title: ""
+series: The Webmaster's Hours
+length_target_s: 60
+cta: simulator   # simulator | partner | how-it-works | product
+cta_url: https://sim.ntsa.uk
+approved: false  # human must flip this before publish
+voices:
+  - priya
+  - graham
+  - chair
+  - eve
+  - leo
+beats:
+  - hook
+  - escalation
+  - turn
+  - button
+named_objects: []   # exactly three concrete things
+lines: []
+companion:
+  linkedin_caption: ""
+  x_caption: ""
+  first_comment: ""
+  carousel_lines: []
+banned:
+  - pyramid
+  - get rich
+  - disrupt
+  - "just use AI"
+notes: ""
