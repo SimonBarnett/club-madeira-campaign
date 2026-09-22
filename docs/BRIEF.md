@@ -46,6 +46,30 @@ Odd weeks → simulator. Even weeks → partner page.
 
 Mon script → Tue `open-tts render` + studio → Wed stills → Thu LinkedIn 07:45 UK / X midday → Fri unpack → Sun `metrics.md`.
 
+That line is the **Thursday film**. It is not the whole public week. A feed
+with one post does not hold an audience between episodes (FR-21). Fill the
+dead days with offcuts from work already being done for that film. No extra
+shoot, no new jokes invented for the grid.
+
+### Weekly posting grid (FR-21)
+
+| Day | Slot | Source (already in production) | Where |
+|---|---|---|---|
+| Mon | Standalone joke | One line cut from this week's script | X + LinkedIn text |
+| Tue | Host problem | One pain from this brief (Wix / paid next year / white-label) | X + LinkedIn text |
+| Wed | Teaser | Still or quote card from this week's episode | X + LinkedIn |
+| Thu | Film | LinkedIn 07:45 UK / X midday | both |
+| Fri | Unpack | What the comments actually argued about | X + LinkedIn text |
+| Sun | Metrics | `metrics.md` | repo only |
+
+Rules:
+
+- Every Mon/Tue/Wed/Fri slot is an offcut of Thursday's film. Do not add a second production burden.
+- Same comedy rules as the film. Punch the situation. One CTA. Product is the relief.
+- Do not replace Thursday. Do not use RPSGame as a cadence filler.
+- Draft the week's four offcuts in `docs/cadence-weekNN.md` when the script exists. Week 1: `docs/cadence-week01.md`.
+- Human sets episode `approved: true` before the film. First-week cadence copy also needs a human OK before it goes live.
+
 YAML shape: see `episodes/_template.yaml`. Human sets `approved: true` before publish. `XAI_API_KEY` never in git.
 Each episode is a seven-asset pack (`docs/repack.md`); `repurpose:` on the template must all be true before approved.
 
