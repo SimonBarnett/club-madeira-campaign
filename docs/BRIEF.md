@@ -44,9 +44,9 @@ Odd weeks → simulator. Even weeks → partner page.
 
 ## Production line
 
-Mon script → Tue `open-tts render` + studio → Wed stills → Thu LinkedIn 07:45 UK / X midday → Fri unpack → Sun `metrics.md`.
+Mon script → Tue `open-tts render` + studio → **listen-back gate** (see `docs/tts-comedy-timing-gate.md`) → Wed stills → Thu LinkedIn 07:45 UK / X midday → Fri unpack → Sun `metrics.md`.
 
-YAML shape: see `episodes/_template.yaml`. Human sets `approved: true` before publish. `XAI_API_KEY` never in git.
+YAML shape: see `episodes/_template.yaml`. Author `pause_*_ms` / `emphasis` on lines. Human sets `approved: true` before publish. `XAI_API_KEY` never in git. No stills on an ungated fail; human VO fallback after two fails.
 
 ## Agent permissions
 

@@ -18,6 +18,14 @@ beats:
   - turn
   - button
 named_objects: []   # exactly three concrete things
+# lines: author timing (FR-25). turn needs pause_before_ms>=400; button pause_after_ms>=500.
+# - beat: hook|escalation|turn|button
+#   speaker: priya
+#   text: "..."
+#   pause_before_ms: 0
+#   pause_after_ms: 0
+#   emphasis: []    # substrings of text to stress
+#   cue: pause      # optional open-tts cue
 lines: []
 companion:
   linkedin_caption: ""

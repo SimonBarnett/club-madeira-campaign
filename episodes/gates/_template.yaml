@@ -1,0 +1,15 @@
+# Copy to epNN-<slug>-attemptK.yaml and fill after each open-tts listen-back.
+# See docs/tts-comedy-timing-gate.md
+episode: 0
+slug: template
+render_attempt: 1
+listener: agent   # agent | human
+audio_ref: ""     # path or URI to the render under review (no secrets)
+checks:
+  button_lands: null          # true | false | null (pending)
+  pause_before_turn_ok: null
+  stranger_would_laugh: null
+verdict: pending              # pending | pass | fail
+fallback_triggered: false
+fallback_reason: ""
+notes: ""

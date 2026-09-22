@@ -44,4 +44,4 @@ Easter egg. Max two public uses in eight weeks. Never replace Thursday's episode
 
 ## Ship cadence
 
-Mon script → Tue TTS + captions → Wed stills → Thu publish 07:45 LinkedIn / midday X → Fri unpack → Sun metrics.md
+Mon script → Tue TTS + captions → listen-back gate (`docs/tts-comedy-timing-gate.md`) → Wed stills → Thu publish 07:45 LinkedIn / midday X → Fri unpack → Sun metrics.md. No stills until gate pass or human-VO fallback.
