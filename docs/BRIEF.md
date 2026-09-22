@@ -47,6 +47,7 @@ Odd weeks → simulator. Even weeks → partner page.
 Mon script → Tue `open-tts render` + studio → Wed stills → Thu LinkedIn 07:45 UK / X midday → Fri unpack → Sun `metrics.md`.
 
 YAML shape: see `episodes/_template.yaml`. Human sets `approved: true` before publish. `XAI_API_KEY` never in git.
+Each episode is a seven-asset pack (`docs/repack.md`); `repurpose:` on the template must all be true before approved.
 
 ## Agent permissions
 
