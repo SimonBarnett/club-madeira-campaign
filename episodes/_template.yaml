@@ -19,11 +19,19 @@ beats:
   - button
 named_objects: []   # exactly three concrete things
 lines: []
+# Full spoken text lives next to this file: episodes/{NN}-{slug}.transcript.md
+transcript: ""
 companion:
   linkedin_caption: ""
   x_caption: ""
   first_comment: ""
   carousel_lines: []
+  # Alt text required for every still, quote card, and carousel slide (FR-28 / #29).
+  # carousel[] must match carousel_lines one-for-one.
+  alt:
+    still: ""
+    quote_card: ""
+    carousel: []
 banned:
   - pyramid
   - get rich
