@@ -25,13 +25,26 @@ companion:
   linkedin_caption: ""
   x_caption: ""
   first_comment: ""
-  carousel_lines: []
+  carousel_lines: []   # LinkedIn carousel slides; pack item 4
   # Alt text required for every still, quote card, and carousel slide (FR-28 / #29).
   # carousel[] must match carousel_lines one-for-one.
   alt:
     still: ""
     quote_card: ""
     carousel: []
+# Seven-asset pack (issue #23 / FR-22). Episode is not done until all true.
+# Hook + 1:1 cuts depend on FR-08 ffmpeg export pack.
+repurpose:
+  film_45_75s: false
+  hook_15s: false
+  cut_1_1: false
+  linkedin_carousel: false
+  text_only_strongest_beat: false
+  quote_card_still: false
+  reply_objection: false
+  strongest_beat: ""
+  quote_card_line: ""
+  reply_objection_text: ""
 banned:
   - pyramid
   - get rich
