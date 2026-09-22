@@ -45,3 +45,5 @@ Easter egg. Max two public uses in eight weeks. Never replace Thursday's episode
 ## Ship cadence
 
 Mon script → Tue TTS + captions → Wed stills → Thu publish 07:45 LinkedIn / midday X → Fri unpack → Sun metrics.md
+
+Between-episode grid (FR-21, `docs/BRIEF.md`): Mon joke-cut, Tue host-problem, Wed quote-card, Fri unpack. Offcuts only. Week sheet: `docs/cadence-weekNN.md`.
