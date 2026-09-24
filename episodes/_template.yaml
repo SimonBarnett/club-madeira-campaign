@@ -19,6 +19,8 @@ beats:
   - button
 named_objects: []   # exactly three concrete things
 lines: []
+# Full spoken text lives next to this file: episodes/{NN}-{slug}.transcript.md
+transcript: ""
 companion:
   linkedin_caption: ""
   x_caption: ""
