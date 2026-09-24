@@ -26,7 +26,7 @@ This repo is the agent operating surface. Product code lives elsewhere.
 
 1. Read [`docs/BRIEF.md`](docs/BRIEF.md) and [`AGENTS.md`](AGENTS.md).
 2. Pick the next open issue labelled `fr`.
-3. Scripts live in `episodes/NN-slug.yaml`. A human must set `approved: true` before publish. Transcript + alt text are also required (`docs/accessibility.md`).
+3. Scripts live in `episodes/NN-slug.yaml`. A human must set `approved: true` before publish.
 4. Keys never go in git. `XAI_API_KEY` stays in the environment.
 5. Thursday is ship day. Stills + TTS counts as a finished episode.
 

@@ -38,22 +38,10 @@ Draft scripts, render TTS, captions, quote cards, schedule to approved accounts,
 - Email anyone who did not raise a hand
 - Publish an episode unless `approved: true` in the YAML
 
-## Accessibility (FR-28 / issue #29)
-
-An episode is **not shippable** without:
-
-- a full transcript next to the YAML (`episodes/{NN}-{slug}.transcript.md`), also posted as the first comment or LinkedIn document
-- `companion.alt` filled for the still, the quote card, and every carousel slide
-- burned captions that meet `tools/export.md` (contrast 4.5:1, minimum size)
-
-`approved: true` does not override this. Empty alts or a missing transcript = do not publish.
-
 ## RPSGame
 
 Easter egg. Max two public uses in eight weeks. Never replace Thursday's episode. Never send hosts the exe. Hand every viewer back to episode, simulator, or partner page.
 
 ## Ship cadence
 
-Mon script → Tue TTS + captions → Wed stills → Thu publish 07:45 LinkedIn / midday X → Fri unpack → Sun metrics.md
-
-Between-episode grid (FR-21, `docs/BRIEF.md`): Mon joke-cut, Tue host-problem, Wed quote-card, Fri unpack. Offcuts only. Week sheet: `docs/cadence-weekNN.md`.
+Mon script → Tue TTS + captions → listen-back gate (`docs/tts-comedy-timing-gate.md`) → Wed stills → Thu publish 07:45 LinkedIn / midday X → Fri unpack → Sun metrics.md. No stills until gate pass or human-VO fallback.

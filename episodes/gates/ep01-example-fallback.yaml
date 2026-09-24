@@ -1,0 +1,20 @@
+# Worked example: deliberate fallback after two fails (FR-25 done-when path).
+# Not a real episode render — shows the required shape when triggering human VO.
+episode: 1
+slug: they-asked-for-a-shop
+render_attempt: 2
+listener: human
+audio_ref: "(example) open-tts project output for ep01 attempt 2"
+checks:
+  button_lands: false
+  pause_before_turn_ok: true
+  stranger_would_laugh: false
+verdict: fail
+fallback_triggered: true
+fallback_reason: >
+  Two synthetic fails on button + laugh test. Human VO for Priya triggered
+  on purpose so stills do not proceed on a flat read.
+notes: >
+  Attempt 1: button crushed into CTA. Attempt 2: button air OK on paper but
+  delivery still flat — stranger would not laugh. Format watch: if ep02 also
+  double-fails, stop before ep03 (see docs/tts-comedy-timing-gate.md).
