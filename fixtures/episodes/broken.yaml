@@ -1,0 +1,21 @@
+episode: 1
+slug: broken
+title: Not a brief title
+series: The Webmaster's Hours
+length_target_s: 12
+cta: banana
+cta_url: https://example.com
+approved: false
+voices: [priya]
+beats: [hook]
+named_objects: [only-one]
+lines:
+  - Please just use AI and get rich
+companion:
+  linkedin_caption: "password=hunter2"
+  x_caption: ""
+  first_comment: ""
+  carousel_lines: []
+banned:
+  - pyramid
+notes: "deliberately broken fixture for CI"
