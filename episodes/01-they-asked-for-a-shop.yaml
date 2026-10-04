@@ -1,0 +1,108 @@
+episode: 1
+slug: they-asked-for-a-shop
+title: "They asked for a shop"
+series: The Webmaster's Hours
+length_target_s: 60
+cta: simulator
+cta_url: https://sim.ntsa.uk
+approved: false
+voices:
+  - priya
+  - graham
+  - chair
+  - eve
+beats:
+  - hook
+  - escalation
+  - turn
+  - button
+named_objects:
+  - the email
+  - the mug
+  - the hoodie
+# Spoken word count target 180–220 (issue #3). Timing per FR-25 gate.
+lines:
+  - beat: hook
+    speaker: priya
+    text: >
+      Client email, Tuesday morning. Subject line: can we add a little shop.
+      Nothing fancy. I quoted a brochure-site amendment, tidy and dull, the way
+      you do when you still believe the brief.
+    pause_before_ms: 0
+    pause_after_ms: 200
+    emphasis: ["Nothing fancy"]
+  - beat: escalation
+    speaker: graham
+    text: >
+      Then the Chair replied. Not to the quote. To the dream.
+    pause_before_ms: 150
+    pause_after_ms: 150
+    emphasis: []
+  - beat: escalation
+    speaker: chair
+    text: >
+      Hoodies. Mugs. A members-only discount. Something like Amazon, but for
+      the club. Members log in, choose a colour, feel seen. We could do Christmas
+      jumpers by November if someone starts now.
+    pause_before_ms: 100
+    pause_after_ms: 200
+    emphasis: ["Hoodies", "Mugs"]
+  - beat: escalation
+    speaker: graham
+    text: >
+      Who packs the parcels? Who chases the returns? Who stores the leftover
+      hoodies when March arrives and nobody wants navy any more?
+    pause_before_ms: 150
+    pause_after_ms: 200
+    emphasis: ["parcels"]
+  - beat: escalation
+    speaker: priya
+    text: >
+      I was still looking at the email. The words nothing fancy had not left
+      the building. The mug and the hoodie had arrived instead, fully formed,
+      with opinions, and a quiet expectation that I would source both by Friday.
+    pause_before_ms: 200
+    pause_after_ms: 250
+    emphasis: ["nothing fancy"]
+  - beat: turn
+    speaker: eve
+    text: >
+      No stock. No parcels. No cupboard of regret. The catalogue lives on the
+      site you already host. White-label. Zero inventory. The club keeps its
+      face. You keep the client. Nobody packs a box in your spare room.
+    pause_before_ms: 450
+    pause_after_ms: 250
+    emphasis: ["No stock", "No parcels"]
+  - beat: button
+    speaker: priya
+    text: >
+      So I do not order sample hoodies. I send them the simulator. Click around.
+      See the shop without the warehouse. One link. No cardboard.
+    pause_before_ms: 200
+    pause_after_ms: 600
+    emphasis: ["simulator"]
+companion:
+  linkedin_caption: >
+    Week 1 — They asked for a shop. The brief said nothing fancy. The reply
+    said hoodies, mugs, and something like Amazon. Spoiler: you do not need a
+    warehouse. Try the Smart Catalogue simulator (link in first comment).
+  x_caption: >
+    “Can we add a little shop. Nothing fancy.” Then: hoodies. Mugs. Who packs
+    the parcels? No stock. Catalogue on the site you already host. Simulator ↓
+  first_comment: >
+    CTA: https://sim.ntsa.uk — white-label, zero-stock catalogue on the club’s
+    existing site. Hosts keep the client. Punch the situation, never the treasurer.
+  carousel_lines:
+    - "Nothing fancy."
+    - "Hoodies. Mugs. Amazon-for-the-club."
+    - "Who packs the parcels?"
+    - "No stock. Catalogue on the site you already host."
+    - "sim.ntsa.uk"
+banned:
+  - pyramid
+  - get rich
+  - disrupt
+  - "just use AI"
+notes: >
+  FR-02 / issue #3 Week 1 script. approved:false until Simon flips. CTA odd-week
+  simulator. Do not name Easyfundraising. Cast: Priya protagonist; Eve delivers turn.
