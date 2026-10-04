@@ -1,0 +1,12 @@
+# FR-08 / open-tts style: never commit rendered media
+exports/
+*.mp4
+*.mov
+*.wav
+*.mp3
+!docs/**
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -29,6 +29,7 @@ This repo is the agent operating surface. Product code lives elsewhere.
 3. Scripts live in `episodes/NN-slug.yaml`. A human must set `approved: true` before publish.
 4. Keys never go in git. `XAI_API_KEY` stays in the environment.
 5. Thursday is ship day. Stills + TTS counts as a finished episode.
+6. ffmpeg export pack (9:16 / 1:1 / 15s hook / burned captions): [	ools/export.md](tools/export.md).
 
 ## Issue labels
 

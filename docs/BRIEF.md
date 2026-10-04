@@ -46,7 +46,7 @@ Odd weeks → simulator. Even weeks → partner page.
 
 Mon script → Tue `open-tts render` + studio → **listen-back gate** (see `docs/tts-comedy-timing-gate.md`) → Wed stills → Thu LinkedIn 07:45 UK / X midday → Fri unpack → Sun `metrics.md`.
 
-YAML shape: see `episodes/_template.yaml`. Author `pause_*_ms` / `emphasis` on lines. Human sets `approved: true` before publish. `XAI_API_KEY` never in git. No stills on an ungated fail; human VO fallback after two fails.
+YAML shape: see `episodes/_template.yaml`. Each episode is a seven-asset pack (`docs/repack.md`); ffmpeg cuts are `tools/export.md` (FR-08). `repurpose:` on the template must all be true before approved. Author `pause_*_ms` / `emphasis` on lines. Human sets `approved: true` before publish. `XAI_API_KEY` never in git. No stills on an ungated fail; human VO fallback after two fails.
 
 ## Agent permissions
 
