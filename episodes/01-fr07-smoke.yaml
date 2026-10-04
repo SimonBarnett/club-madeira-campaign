@@ -1,0 +1,34 @@
+episode: 1
+slug: fr07-smoke
+title: "FR-07 smoke cold open"
+series: The Webmaster's Hours
+length_target_s: 45
+cta: simulator
+cta_url: https://sim.ntsa.uk
+approved: false
+voices:
+  - priya
+  - graham
+beats:
+  - hook
+  - turn
+named_objects: []
+lines:
+  - beat: hook
+    speaker: priya
+    text: "The treasurer has a spreadsheet."
+    pause_before_ms: 0
+    pause_after_ms: 200
+  - beat: turn
+    speaker: graham
+    text: "Of course he does."
+    cue: pause
+    pause_before_ms: 400
+    pause_after_ms: 500
+companion:
+  linkedin_caption: ""
+  x_caption: ""
+  first_comment: ""
+  carousel_lines: []
+banned: []
+notes: "test fixture for FR-07 dry-run; not for publish"

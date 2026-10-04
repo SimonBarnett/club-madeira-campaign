@@ -1,0 +1,12 @@
+# Campaign role -> Grok TTS / open-tts character voice_id
+# FR-07: placeholders until dedicated sheets exist in SimonBarnett/open-tts characters/registry.yaml
+#
+# Direct matches (already in open-tts registry): eve, leo
+# Placeholders: map missing campaign roles onto existing Grok TTS voice ids.
+# Update this table when priya/graham/chair sheets land upstream.
+
+priya: eve      # female host; placeholder -> eve
+graham: leo     # deadpan British male; placeholder -> leo
+chair: ara      # neutral chair; Grok TTS voice id (add to open-tts registry before video mux)
+eve: eve
+leo: leo

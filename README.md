@@ -30,6 +30,18 @@ This repo is the agent operating surface. Product code lives elsewhere.
 4. Keys never go in git. `XAI_API_KEY` stays in the environment.
 5. Thursday is ship day. Stills + TTS counts as a finished episode.
 
+## Render TTS (FR-07)
+
+Episode YAML is adapted and passed to [open-tts](https://github.com/SimonBarnett/open-tts) — full command sheet in [`tools/render.md`](tools/render.md). Do not vendor open-tts into this repo.
+
+```powershell
+python tools/render_episode.py episodes/NN-slug.yaml --dry-run
+python tools/render_episode.py episodes/NN-slug.yaml
+python -m open_tts.studio --edit tools/.render-work/<slug>.open-tts.yaml
+```
+
+Voice map: [`tools/voices.yaml`](tools/voices.yaml). `.env` is gitignored; copy from `.env.example` if needed.
+
 ## Issue labels
 
 - `fr` — feature request the agent can implement
